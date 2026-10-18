@@ -4,9 +4,9 @@
 
 ## 在线访问
 
-👉 **https://finance-glossary-dbr.pages.dev/**
+👉 **https://charlestian.github.io/finance-glossary/**（GitHub Pages）
 
-托管在 Cloudflare Pages，中国大陆不开代理也能打开。
+备用地址：https://finance-glossary-dbr.pages.dev/（Cloudflare Pages，中国大陆一般不开代理也能打开）
 
 ## 分组与术语数
 

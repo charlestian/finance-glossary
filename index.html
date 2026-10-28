@@ -327,7 +327,7 @@
       <div class="offline-badges" aria-label="图谱统计">
         <button class="offline-theme-toggle" type="button" data-testid="offline-theme-toggle" aria-label="切换到夜晚模式" title="切换到夜晚模式">夜晚</button>
         <span>12 节点</span>
-        <span>2026-10-26</span>
+        <span>2026-10-28</span>
         <button class="offline-warn-button" type="button" data-testid="offline-warn-button" aria-haspopup="dialog">告警 0</button>
       </div>
     </header>
@@ -780,7 +780,7 @@
     }
   },
   "meta": {
-    "build_date": "2026-10-26T03:44:44Z",
+    "build_date": "2026-10-28T15:06:30Z",
     "degraded": false,
     "initial_view": [
       "wiki/topics/术语库.md",
@@ -800,10 +800,10 @@
     "total_edges": 22,
     "total_nodes": 12,
     "warning_summary": {
-      "build_id": "607c426664e7676f5b32b7dac622cfdabd79bf525c3550bda3247bdeda627b57",
+      "build_id": "60dab186ba8768cd1415baaec4bf9d4f516b057170a364c3de66b4d8b227cc07",
       "by_code": {},
       "details_ref": "wiki/graph-warnings.json",
-      "details_sha256": "7052f01b186611eb5fee25e3cfbd5986e69b8a4d21df5f653e404b9a9d2f504a",
+      "details_sha256": "a43662d48a6e98d27f92b8930eed8658fe257b5de2e58a2900067e74708dd71d",
       "error_occurrences": 0,
       "total_groups": 0,
       "total_occurrences": 0,
@@ -886,7 +886,7 @@
     },
     {
       "community": "wiki/topics/术语库.md",
-      "content": "# 衍生品\n\n\u003e 「衍生品」类金融术语，共 32 个。\n\n## 关键信息\n\n- **类型**：概念（术语分组）\n- **领域**：衍生品\n- **所属主题**：[[术语库]]\n\n## 术语\n\n| 中文名 | 英文名 | 释义 |\n|---|---|---|\n| 波动率、波动 | volatility、vol | 衡量资产价格变动幅度的指标，分为历史波动率和隐含波动率。 |\n| 德尔塔 | delta | 期权价格对标的价格变动的一阶敏感度，也近似代表到期为实值的概率。 |\n| 反向市场、逆转市场 | backwardation、inverted market | 期货价格低于现货、近月合约高于远月的期限结构（基差为正）；多因现货紧缺、近期需求旺盛，滚动做多可获正展期收益。 |\n| 伽马 | gamma | 期权delta随标的价格变化的速度，即期权价格对标的的二阶敏感度。 |\n| gamma挤压 | gamma squeeze | gamma挤压，做市商因卖出期权被迫追涨杀跌对冲，放大标的价格走势。 |\n| 净权利金 | Net Premium（NCP、NPP） | 期权资金流指标：按卖价成交计为买入、按买价成交计为卖出，权利金买入减卖出即净额。NCP为看涨期权净权利金，NPP为看跌期权净权利金，用于观察资金方向。 |\n| 看跌价差 | put spread、bear put spread | 买入较高行权价看跌期权、同时卖出同到期较低行权价看跌期权，用卖出的权利金降低成本；最大亏损为净权利金，最大收益为行权价差减净成本，适合温和看跌或低成本对冲。 |\n| 看跌期权 | put | 看跌期权，赋予买方在到期前或到期时以约定价格卖出标的的权利。 |\n| 看涨看跌平价、期权平价关系 | put-call parity | 同一标的、同行权价、同到期日的欧式看涨与看跌期权价格间的无套利关系：无分红股票满足 C−P = S−K·e^(−rT)，即 C+PV(K) = P+S；有分红时 S 需减去期内股息现值（连续股息率 q 时为 S·e^(−qT)）。关系被打破即可通过转换套利（买股+买看跌+卖看涨）或反转套利（卖空股+买看涨+卖看跌）锁定无风险利润。 |\n| 看涨期权 | call | 看涨期权，赋予买方在到期前或到期时以约定价格买入标的的权利。 |\n| 恐慌指数 | VIX | 芝加哥期权交易所波动率指数，由标普500期权推算未来30天隐含波动率，俗称恐慌指数。 |\n| 跨式 | straddle | 跨式组合，同时买入同一行权价和到期日的看涨与看跌期权，押注大幅波动。 |\n| 名义本金、名义金额 | notional、notional amount | 衍生品合约约定的面额或标的数量，用于计算结算支付和衡量头寸规模，通常并非实际交换或占用的资金；合约市值一般远小于名义本金。 |\n| 偏度 | skew | 波动率偏斜，不同行权价期权隐含波动率的差异，通常看跌期权更贵。 |\n| 平值 | ATM、at-the-money | 期权行权价等于或最接近标的现价的状态；内在价值为零，只含时间价值，且时间价值、gamma在各行权价中最大，delta约0.5。 |\n| 期货 | futures | 期货，约定在未来特定日期以约定价格买卖标的资产的标准化交易所合约。 |\n| 期权 | options、option | 赋予买方在约定时间以约定价格买入或卖出标的的权利而非义务的合约。 |\n| 权利金、溢价 | premium | 期权权利金，即买方付给卖方的期权价格；也泛指价格高于基准的溢价。 |\n| 升水 | premium | 某价格高于参照价格的差额：期货高于现货称期货升水（现货贴水），远月高于近月亦称升水；也用于远期汇率高于即期、交割品级/地点的加价。 |\n| 剩余到期天数、到期天数 | DTE、days to expiration | 期权距到期日剩余的日历天数，决定时间价值多少；DTE越小theta衰减越快，0DTE指当日到期的期权。 |\n| 贴水 | discount | 某价格低于参照价格的差额：期货低于现货称期货贴水（现货升水），远月低于近月亦称贴水；也用于远期汇率低于即期、交割品级/地点的减价。 |\n| VIX期货 | VIX futures、VX | Cboe期货交易所（CFE）上市、以VIX指数为标的的期货（乘数1000美元），有月度与周度合约，到期按VIX特别开盘报价（VRO）现金结算；价格反映市场对到期时未来30天波动率的预期，而非现货VIX，因此常与现货存在升贴水。 |\n| VIX期权 | VIX options | Cboe上市、以VIX指数为标的的欧式期权（乘数100美元），有月度与周度到期，按VRO现金结算；因到期结算值与同到期日VIX期货相同，定价参照对应VIX期货而非现货VIX，常用于对冲股市暴跌或交易波动率。 |\n| VIX期限结构倒挂、VIX贴水 | VIX backwardation | VIX期货近月合约价格高于远月、曲线向下倾斜的状态（近月常高于VIX现货）；正常时为远月高于近月的升水结构（contango），倒挂较少见，多出现在市场恐慌、短期对冲需求激增时，常被视为压力信号。 |\n| 维加 | vega | 期权价格对隐含波动率变动的敏感度。 |\n| 西塔 | theta | 期权价格随时间流逝而减少的速度，即时间价值衰减。 |\n| 行权价、执行价、履约价 | strike、strike price、exercise price | 期权合约约定的固定价格，持有人行权时可按此价买入（看涨）或卖出（看跌）标的；行权价与标的现价的关系决定期权处于实值、平值或虚值。交易所挂牌时围绕现价按标准间距设置多档行权价（如美股期权一般低于25美元每2.5美元一档、25–200美元每5美元一档）。 |\n| 虚值、价外 | OTM、out-of-the-money | 看涨期权行权价高于标的现价、看跌期权行权价低于标的现价的状态；内在价值为零，仅含时间价值，若到期仍为虚值则作废。 |\n| 雪球 | snowball | 挂钩中证500/1000等指数的非保本结构化产品，未敲入可获票息，敲入且未敲出则承担指数跌幅损失。 |\n| 隐含波动率 | IV、implied vol | 隐含波动率，由期权市场价格反推的标的未来波动率预期。 |\n| 隐含波动率压缩、波动率挤压 | IV crush、vol crush | 财报、议息会议等确定事件公布后不确定性消除，隐含波动率骤降（财报后近月期权常跌30%–60%），期权时间价值随之大幅缩水；即使标的按预期方向变动，买入的期权也可能亏损，短期平值期权受影响最大。 |\n| 正向市场、正常市场 | contango、normal market | 期货价格高于现货、远月合约高于近月的期限结构（基差=现货−期货为负）；反映仓储、资金等持有成本，是常态。 |",
+      "content": "# 衍生品\n\n\u003e 「衍生品」类金融术语，共 32 个。\n\n## 关键信息\n\n- **类型**：概念（术语分组）\n- **领域**：衍生品\n- **所属主题**：[[术语库]]\n\n## 术语\n\n| 中文名 | 英文名 | 释义 |\n|---|---|---|\n| 波动率、波动 | volatility、vol | 衡量资产价格变动幅度的指标，分为历史波动率和隐含波动率。 |\n| 德尔塔 | delta | 期权价格对标的价格变动的一阶敏感度，也近似代表到期为实值的概率。 |\n| 反向市场、逆转市场 | backwardation、inverted market | 期货价格低于现货、近月合约高于远月的期限结构（基差为正）；多因现货紧缺、近期需求旺盛，滚动做多可获正展期收益；因期货相对现货贴水，俗称“贴水结构”。 |\n| 伽马 | gamma | 期权delta随标的价格变化的速度，即期权价格对标的的二阶敏感度。 |\n| gamma挤压 | gamma squeeze | gamma挤压，做市商因卖出期权被迫追涨杀跌对冲，放大标的价格走势。 |\n| 净权利金 | Net Premium（NCP、NPP） | 期权资金流指标：按卖价成交计为买入、按买价成交计为卖出，权利金买入减卖出即净额。NCP为看涨期权净权利金，NPP为看跌期权净权利金，用于观察资金方向。 |\n| 看跌价差 | put spread、bear put spread | 买入较高行权价看跌期权、同时卖出同到期较低行权价看跌期权，用卖出的权利金降低成本；最大亏损为净权利金，最大收益为行权价差减净成本，适合温和看跌或低成本对冲。 |\n| 看跌期权 | put | 看跌期权，赋予买方在到期前或到期时以约定价格卖出标的的权利。 |\n| 看涨看跌平价、期权平价关系 | put-call parity | 同一标的、同行权价、同到期日的欧式看涨与看跌期权价格间的无套利关系：无分红股票满足 C−P = S−K·e^(−rT)，即 C+PV(K) = P+S；有分红时 S 需减去期内股息现值（连续股息率 q 时为 S·e^(−qT)）。关系被打破即可通过转换套利（买股+买看跌+卖看涨）或反转套利（卖空股+买看涨+卖看跌）锁定无风险利润。 |\n| 看涨期权 | call | 看涨期权，赋予买方在到期前或到期时以约定价格买入标的的权利。 |\n| 恐慌指数 | VIX | 芝加哥期权交易所波动率指数，由标普500期权推算未来30天隐含波动率，俗称恐慌指数。 |\n| 跨式 | straddle | 跨式组合，同时买入同一行权价和到期日的看涨与看跌期权，押注大幅波动。 |\n| 名义本金、名义金额 | notional、notional amount | 衍生品合约约定的面额或标的数量，用于计算结算支付和衡量头寸规模，通常并非实际交换或占用的资金；合约市值一般远小于名义本金。 |\n| 偏度 | skew | 波动率偏斜，不同行权价期权隐含波动率的差异，通常看跌期权更贵。 |\n| 平值 | ATM、at-the-money | 期权行权价等于或最接近标的现价的状态；内在价值为零，只含时间价值，且时间价值、gamma在各行权价中最大，delta约0.5。 |\n| 期货 | futures | 期货，约定在未来特定日期以约定价格买卖标的资产的标准化交易所合约。 |\n| 期权 | options、option | 赋予买方在约定时间以约定价格买入或卖出标的的权利而非义务的合约。 |\n| 权利金、溢价 | premium | 期权权利金，即买方付给卖方的期权价格；也泛指价格高于基准的溢价。 |\n| 升水 | premium | 某价格高于参照价格的差额：期货高于现货称期货升水（现货贴水），远月高于近月亦称升水；也用于远期汇率高于即期、交割品级/地点的加价。 |\n| 剩余到期天数、到期天数 | DTE、days to expiration | 期权距到期日剩余的日历天数，决定时间价值多少；DTE越小theta衰减越快，0DTE指当日到期的期权。 |\n| 贴水 | discount | 某价格低于参照价格的差额：期货低于现货称期货贴水（现货升水），远月低于近月亦称贴水；也用于远期汇率低于即期、交割品级/地点的减价。 |\n| VIX期货 | VIX futures、VX | Cboe期货交易所（CFE）上市、以VIX指数为标的的期货（乘数1000美元），有月度与周度合约，到期按VIX特别开盘报价（VRO）现金结算；价格反映市场对到期时未来30天波动率的预期，而非现货VIX，因此常与现货存在升贴水。 |\n| VIX期权 | VIX options | Cboe上市、以VIX指数为标的的欧式期权（乘数100美元），有月度与周度到期，按VRO现金结算；因到期结算值与同到期日VIX期货相同，定价参照对应VIX期货而非现货VIX，常用于对冲股市暴跌或交易波动率。 |\n| VIX期限结构倒挂、VIX贴水 | VIX backwardation | VIX期货近月合约价格高于远月、曲线向下倾斜的状态（近月常高于VIX现货）；正常时为远月高于近月的升水结构（contango），倒挂较少见，多出现在市场恐慌、短期对冲需求激增时，常被视为压力信号。 |\n| 维加 | vega | 期权价格对隐含波动率变动的敏感度。 |\n| 西塔 | theta | 期权价格随时间流逝而减少的速度，即时间价值衰减。 |\n| 行权价、执行价、履约价 | strike、strike price、exercise price | 期权合约约定的固定价格，持有人行权时可按此价买入（看涨）或卖出（看跌）标的；行权价与标的现价的关系决定期权处于实值、平值或虚值。交易所挂牌时围绕现价按标准间距设置多档行权价（如美股期权一般低于25美元每2.5美元一档、25–200美元每5美元一档）。 |\n| 虚值、价外 | OTM、out-of-the-money | 看涨期权行权价高于标的现价、看跌期权行权价低于标的现价的状态；内在价值为零，仅含时间价值，若到期仍为虚值则作废。 |\n| 雪球 | snowball | 挂钩中证500/1000等指数的非保本结构化产品，未敲入可获票息，敲入且未敲出则承担指数跌幅损失。 |\n| 隐含波动率 | IV、implied vol | 隐含波动率，由期权市场价格反推的标的未来波动率预期。 |\n| 隐含波动率压缩、波动率挤压 | IV crush、vol crush | 财报、议息会议等确定事件公布后不确定性消除，隐含波动率骤降（财报后近月期权常跌30%–60%），期权时间价值随之大幅缩水；即使标的按预期方向变动，买入的期权也可能亏损，短期平值期权受影响最大。 |\n| 正向市场、正常市场 | contango、normal market | 期货价格高于现货、远月合约高于近月的期限结构（基差=现货−期货为负）；反映仓储、资金等持有成本，是常态；因期货相对现货升水，俗称“升水结构”。 |",
       "id": "wiki/entities/衍生品.md",
       "label": "衍生品",
       "source_path": "wiki/entities/衍生品.md",
@@ -912,7 +912,7 @@
 }
   </script>
   <script id="graph-warning-data" type="application/json">
-{"bundle":{"build_id":"607c426664e7676f5b32b7dac622cfdabd79bf525c3550bda3247bdeda627b57","candidate_sets":[],"groups":[],"summary":{"build_id":"607c426664e7676f5b32b7dac622cfdabd79bf525c3550bda3247bdeda627b57","by_code":{},"details_ref":"wiki/graph-warnings.json","details_sha256":"7052f01b186611eb5fee25e3cfbd5986e69b8a4d21df5f653e404b9a9d2f504a","error_occurrences":0,"total_groups":0,"total_occurrences":0,"warning_occurrences":0},"version":1},"details_status":"available","details_unavailable_reason":null,"omitted_candidate_set_count":0,"omitted_group_count":0,"summary":{"build_id":"607c426664e7676f5b32b7dac622cfdabd79bf525c3550bda3247bdeda627b57","by_code":{},"details_ref":"wiki/graph-warnings.json","details_sha256":"7052f01b186611eb5fee25e3cfbd5986e69b8a4d21df5f653e404b9a9d2f504a","error_occurrences":0,"total_groups":0,"total_occurrences":0,"warning_occurrences":0},"warning_details_truncated":false}  </script>
+{"bundle":{"build_id":"60dab186ba8768cd1415baaec4bf9d4f516b057170a364c3de66b4d8b227cc07","candidate_sets":[],"groups":[],"summary":{"build_id":"60dab186ba8768cd1415baaec4bf9d4f516b057170a364c3de66b4d8b227cc07","by_code":{},"details_ref":"wiki/graph-warnings.json","details_sha256":"a43662d48a6e98d27f92b8930eed8658fe257b5de2e58a2900067e74708dd71d","error_occurrences":0,"total_groups":0,"total_occurrences":0,"warning_occurrences":0},"version":1},"details_status":"available","details_unavailable_reason":null,"omitted_candidate_set_count":0,"omitted_group_count":0,"summary":{"build_id":"60dab186ba8768cd1415baaec4bf9d4f516b057170a364c3de66b4d8b227cc07","by_code":{},"details_ref":"wiki/graph-warnings.json","details_sha256":"a43662d48a6e98d27f92b8930eed8658fe257b5de2e58a2900067e74708dd71d","error_occurrences":0,"total_groups":0,"total_occurrences":0,"warning_occurrences":0},"warning_details_truncated":false}  </script>
   <script id="graph-layout" type="application/json">
 {"version":2,"pins":{},"updatedAt":""}
   </script>
